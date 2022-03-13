@@ -1,0 +1,1 @@
+{"function_1": "(x * (y/(-406 + (x + y))))", "function_2": "(x - (y/(1/((x + y) + (x/(y/(y - y)))))))", "function_1_prob": 0.3, "function_2_prob": 0.09, "projection": "rectilinear", "projection_probability": 0.9795689896445564, "gradient": "GnBu", "gradient_probability": 0.006024096385542169, "background_color": "Beige", "background_color_prob": 0.006756756756756757}

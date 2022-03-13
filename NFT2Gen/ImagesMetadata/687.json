@@ -1,0 +1,1 @@
+{"function_1": "(x - (y * (y + (y/pow((x - y), pow(x, sqrt(abs(y))))))))", "function_2": "(x + (y + 311))", "function_1_prob": 0.09, "function_2_prob": 1, "projection": "aitoff", "projection_probability": 0.013993842709207949, "gradient": "gnuplot", "gradient_probability": 0.006024096385542169, "background_color": "DarkMagenta", "background_color_prob": 0.006756756756756757}

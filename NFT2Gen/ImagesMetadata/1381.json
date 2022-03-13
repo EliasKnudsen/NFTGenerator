@@ -1,0 +1,1 @@
+{"function_1": "(x * (y * 489))", "function_2": "(x - (y + (-206/((x/y)/(x * log(abs(y)))))))", "function_1_prob": 1, "function_2_prob": 0.09, "projection": "rectilinear", "projection_probability": 0.9795689896445564, "gradient": "RdPu", "gradient_probability": 0.006024096385542169, "background_color": "PowderBlue", "background_color_prob": 0.006756756756756757}

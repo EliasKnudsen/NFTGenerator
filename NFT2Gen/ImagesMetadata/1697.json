@@ -1,0 +1,1 @@
+{"function_1": "(x - (y + -6))", "function_2": "(x * (y + (y + (y/(x + (y/(-309 * pow(x, (y - -421)))))))))", "function_1_prob": 1, "function_2_prob": 0.09, "projection": "rectilinear", "projection_probability": 0.9795689896445564, "gradient": "magma", "gradient_probability": 0.006024096385542169, "background_color": "MistyRose", "background_color_prob": 0.006756756756756757}

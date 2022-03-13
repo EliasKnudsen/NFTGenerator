@@ -1,9 +1,12 @@
+from time import sleep
 import generate_func as gf
 import random
 import os
 import json
 import numpy as np
 import gen
+import psutil
+import sys
 def get_depth_and_func_rarity():
     probability = 0.7
     depth = 1
@@ -115,7 +118,7 @@ def execute():
 
     with open('main.cpp', 'w') as cpp_file:
         cpp_file.writelines(cpp_content)
-
+        
     os.system("g++ main.cpp")
     os.system("./a.out > out.out")
     os.system('echo "[a.out] Executed a.out"')
@@ -125,5 +128,13 @@ def execute():
     else:
         print(f"[gen.py] bad image found")
 
-for i in range(0, 2000):
-    execute()
+if __name__ == "__main__":
+    for i in range(0, 100000):
+        print('The CPU usage is: ', psutil.cpu_percent(0.1))
+        ram_usage = psutil.virtual_memory()[2]
+        print('RAM memory % used:', psutil.virtual_memory()[2])
+        if ram_usage > 90.6:
+            print("Restarting program")
+            sleep(10)
+            os.execv(sys.executable, ['python3'] + sys.argv)
+        execute()

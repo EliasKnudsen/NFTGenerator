@@ -1,0 +1,1 @@
+{"function_1": "(x - (y * -456))", "function_2": "(x - (y/-42))", "function_1_prob": 1, "function_2_prob": 1, "projection": "lambert", "projection_probability": 0.001399384270920795, "gradient": "RdYlGn", "gradient_probability": 0.006024096385542169, "background_color": "Cyan", "background_color_prob": 0.006756756756756757}

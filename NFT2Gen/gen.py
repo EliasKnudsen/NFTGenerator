@@ -64,7 +64,7 @@ def gen(color_map, projection, bgcolor):
     filename = get_filename("Images/", ".png")
     plt.savefig(f'Images/{filename}')
     print(filename + "----")
-    if lbi.should_delete(f"Images/{filename}", 14000):
+    if lbi.should_delete(f"Images/{filename}", 30000):
         os.remove(f"Images/{filename}")
         return False
     else:

@@ -129,7 +129,7 @@ def execute():
         print(f"[gen.py] bad image found")
 
 if __name__ == "__main__":
-    for i in range(0, 100000):
+    while True:
         print('The CPU usage is: ', psutil.cpu_percent(0.1))
         ram_usage = psutil.virtual_memory()[2]
         print('RAM memory % used:', psutil.virtual_memory()[2])

@@ -24,7 +24,9 @@ def should_delete(img, minimum_content):
             if r == values[0] and g == values[1] and b == values[2]:
                 bg_color += 1
     content = (img.width*img.height) - bg_color
+    print(content)
     if content < minimum_content:
+
         print("[locate_bad_images] bad image found \n")
         return True
     else:
@@ -50,4 +52,6 @@ def rename_directories(dir1, dir2):
 
         current_file += 1
     print("Completed")
+
+
 

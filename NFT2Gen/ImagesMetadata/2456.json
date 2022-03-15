@@ -1,0 +1,1 @@
+{"function_1": "(x/pow(y, 475))", "function_2": "(x - (y - (-293 * pow(x, (y - (64 * ((x/y)/(x/sin(y)))))))))", "function_1_prob": 1, "function_2_prob": 0.027, "projection": "aitoff", "projection_probability": 0.013993842709207949, "gradient": "tab20b", "gradient_probability": 0.006024096385542169, "background_color": "Wheat", "background_color_prob": 0.006756756756756757}

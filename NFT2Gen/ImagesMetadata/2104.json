@@ -1,0 +1,1 @@
+{"function_1": "(x + (y - -468))", "function_2": "(x/pow(y, (x - x)))", "function_1_prob": 1, "function_2_prob": 1, "projection": "lambert", "projection_probability": 0.001399384270920795, "gradient": "PuBuGn", "gradient_probability": 0.006024096385542169, "background_color": "LightPink", "background_color_prob": 0.006756756756756757}

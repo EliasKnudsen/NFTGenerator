@@ -1,0 +1,1 @@
+{"function_1": "pow(x, (y/23))", "function_2": "(x - (y * -494))", "function_1_prob": 1, "function_2_prob": 1, "projection": "rectilinear", "projection_probability": 0.9795689896445564, "gradient": "Oranges", "gradient_probability": 0.006024096385542169, "background_color": "Orange", "background_color_prob": 0.006756756756756757}

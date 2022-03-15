@@ -5,19 +5,19 @@
 using namespace std;
 
 // INSERT_RNUM
-const double RNUM = 6.3703615445311;
+const double RNUM = 4.693228347213418;
 const double START = -3;
 const double STOP = 3;
 const double STEP = 0.007;
 
 double f1(double x, double y) {
     // INSERT_F1
-    return RNUM * pow(x, (y/368));
+    return RNUM * pow(x, (y - -173));
 }
 
 double f2(double x, double y) {
     // INSERT_F2
-    return RNUM * pow(x, (y + (-184 - pow((x * y), (x + y)))));
+    return RNUM * (x * (y * (x * x)));
 }
 
 int main() {

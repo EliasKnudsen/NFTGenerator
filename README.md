@@ -1,2 +1,2 @@
-# Mathporn
-NFT generator for mathporn collection
+# NFTGen
+NFT generator made with cpp and python
